@@ -3,13 +3,19 @@ import Header from './componentes/Header';
 import Caixacorpo1 from './componentes/main';
 import CaixaDicas from './componentes/Tresdicas';
 import Caixalimitacoes from './componentes/limitacoes';
+import CaixaIdadeMusculo from './componentes/anivermusculo';
+import CaixaGravidez from './componentes/gravidezDesen';
 
 const AppContainer = styled.div`
   width: 100vw;
-
-  background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+  
+  background: linear-gradient(#FFF, #DBEAEB );
   font-family: sans-serif;
 `
+
+
+
+
 function App() {
   return (
     <AppContainer>
@@ -17,6 +23,8 @@ function App() {
       <Caixacorpo1/>
       <CaixaDicas/>
       <Caixalimitacoes/>
+      <CaixaIdadeMusculo/>
+      <CaixaGravidez/>
     </AppContainer>
   );
 }

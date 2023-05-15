@@ -3,7 +3,7 @@ import imagem1 from '../imagens/Homem.png';
 
 const CaixaSecao = styled.div`
     display:flex;
-    padding:0 2em;
+    padding:0 2em 0 0;
 `
 const Caixaimagem =styled.div`
    display:flex;

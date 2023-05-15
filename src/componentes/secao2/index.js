@@ -5,18 +5,41 @@ import imagem4 from '../imagens/moon-and-stars copiar.png';
 
 const CaixaDicas = styled.div`
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
-    margin: 0 0 0 2em;
+    padding: 1em 5em;
+    padding: 1em 0;
     
 `
 const Comida = styled.div`
- padding: 1em 0;
+ display:flex;
+ flex-direction: column;
+ padding: 1em 0.5em;
+ background-color:#f9fdff;
+ border: 1px solid transparent;
+ border-radius:10px;
+ margin: 0 2em;
 
 `
 const Peso = styled.div`
+display:flex;
+ flex-direction: column;
+padding: 1em 0.5em;
+background-color:#f9fdff;
+border: 1px solid transparent;
+border-radius:10px;
+margin: 0 2em;
+width:70%;
 `
 const Sono = styled.div`
+display:flex;
+ flex-direction: column;
+ padding: 1em 0.5em;
+background-color:#f9fdff;
+border: 1px solid transparent;
+border-radius:10px;
+margin: 0 2em;
+
 `
 const Paragrafodica = styled.p`
 width: 80%;
