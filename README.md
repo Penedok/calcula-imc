@@ -31,4 +31,4 @@
  ```
     npm start
 ```
- Click aqui para acessar abrir a página no seu navegador: https://calcula-imc-amber.vercel.app/
+ Click aqui para acessar á página no seu navegador: https://calcula-imc-amber.vercel.app/
