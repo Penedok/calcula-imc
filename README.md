@@ -14,13 +14,14 @@
     - Incluir e Alterar o Sexo do usúario.
 
 # Detalhes 
-    - O projeto foi desenvolvido e REACTjs.
+    - O projeto foi desenvolvido em REACTjs.
     - Uso de componentes e Estados foram aplicados.
     - A estilização foi feita apenas com styled-componets.
+    
 
 # Executando 
- - Baixar do projeto
- - Abrir com o projeto
+ - Baixar o projeto
+ - Abrir o vs code com o projeto
  - Baixar as dependências
 
 ```
