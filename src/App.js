@@ -7,14 +7,11 @@ import CaixaIdadeMusculo from './componentes/anivermusculo';
 import CaixaGravidez from './componentes/gravidezDesen';
 
 const AppContainer = styled.div`
-  width: 100vw;
+  
   
   background: linear-gradient(#FFF, #DBEAEB );
   font-family: sans-serif;
 `
-
-
-
 
 function App() {
   return (
@@ -26,6 +23,7 @@ function App() {
       <CaixaIdadeMusculo/>
       <CaixaGravidez/>
     </AppContainer>
+    
   );
 }
 
